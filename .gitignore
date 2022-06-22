@@ -3,3 +3,4 @@
 /.blackbox/secring.gpg
 /README.md
 /secret.yml
+/environment
