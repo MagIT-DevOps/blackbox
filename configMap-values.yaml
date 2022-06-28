@@ -1,0 +1,109 @@
+#@data/values
+---
+end_point:
+- api_version_shortname: hrdata2go_orgunits-v1
+  route_paths:
+  - "/orgunits/v1"
+  - "/orgunits/v2"
+  - "/orgunitreferences/v1"
+- api_version_shortname: hrdata2go_employee_absences_history_aggr_mostructure_employee_group_1-v1
+  route_paths: 
+  - /employee_absences_hist_aggr_mos_1/v1
+  - /employee_absences_hist_aggr_mos_1/v2
+- api_version_shortname: hrdata2go_employee_absences_hist_aggr_mostructure_employee_group_3-v1
+  route_paths: 
+  - /employee_absences_hist_aggr_mos_3/v1
+  - /employee_absences_hist_aggr_mos_3/v2
+- api_version_shortname: hrdata2go_employee_absences_hist_aggr_orgstructure_employee_group_1-v1
+  route_paths: 
+  - /employee_absences_hist_aggr_org_1/v1
+  - /employee_absences_hist_aggr_org_1/v2
+- api_version_shortname: hrdata2go_employee_absences_hist_aggr_orgstructure_employee_group_3-v1
+  route_paths: 
+  - /employee_absences_hist_aggr_org_3/v1
+  - /employee_absences_hist_aggr_org_3/v2
+- api_version_shortname: hrdata2go_employee_absences_hist_pivot_orgstructure_employee_group_1-v1
+  route_paths: 
+  - /employee_absences_hist_pivot_org_1/v1
+- api_version_shortname: hrdata2go_employee_absences_hist_pivot_orgstructure_employee_group_3-v1
+  route_paths: 
+  - /employee_absences_hist_pivot_org_3/v1
+- api_version_shortname: hrdata2go_employee_absences_plan_aggr_mostructure_employee_group_1-v1
+  route_paths: 
+  - /employee_absences_plan_aggr_mos_1/v1
+  - /employee_absences_plan_aggr_mos_1_save/v1
+- api_version_shortname: hrdata2go_employee_absences_plan_aggr_mos_eg_2-v1
+  route_paths: 
+  - /employee_absences_plan_aggr_mos_2/v1
+- api_version_shortname: hrdata2go_employee_absences_today_aggr_mostructure_employee_group_1-v1
+  route_paths: 
+  - /employee_absences_today_aggr_mos_1/v1
+  - /employee_absences_today_aggr_mos_1/v2
+- api_version_shortname: hrdata2go_employee_absences_today_aggr_mostructure_employee_group_3-v1
+  route_paths: 
+  - /employee_absences_today_aggr_mos_3/v1
+  - /employee_absences_today_aggr_mos_3/v2
+- api_version_shortname: hrdata2go_employee_absences_today_aggr_orgstructure_employee_group_1-v1
+  route_paths: 
+  - /employee_absences_today_aggr_org_1/v1
+  - /employee_absences_today_aggr_org_1/v2
+- api_version_shortname: hrdata2go_employee_absences_today_aggr_orgstructure_employee_group_3-v1
+  route_paths: 
+  - /employee_absences_today_aggr_org_3/v1
+  - /employee_absences_today_aggr_org_3/v2
+- api_version_shortname: hrdata2go_employee_absences_today_pivot_orgstructure_employee_group_1-v1
+  route_paths: 
+  - /employee_absences_today_pivot_org_1/v1
+- api_version_shortname: hrdata2go_employee_absences_today_pivot_orgstructure_employee_group_3-v1
+  route_paths: 
+  - /employee_absences_today_pivot_org_3/v1
+- api_version_shortname: hrdata2go_employee_truck-v1
+  route_paths: 
+  - /employees_truck/v1
+- api_version_shortname: epeople_employee-v1
+  route_paths: 
+  - /employeesgermany/v1
+  - /employeesgermany/v2
+- api_version_shortname: hrdata2go_employee_eff_placement-v1
+  route_paths: 
+  - /employeesgermany_eff_placement/v1
+- api_version_shortname: hrdata2go_employee_lentlist_plan-v1
+  route_paths: 
+  - /employees_lentlist_plan/v1
+- api_version_shortname: hrdata2go_employee_mb_group-v1
+  route_paths: 
+  - /employees_mb_group/v1
+- api_version_shortname: hrdata2go_employee_vacation_aggr_mostructure_employee_group_2-v1
+  route_paths: 
+  - /employee_vacation_aggr_mos_2/v1
+- api_version_shortname: hrdata2go_employee-v1
+  route_paths: 
+  - /employees/v1
+- api_version_shortname: hrdata2go_employee-v2
+  route_paths: 
+  - /employees/v2
+- api_version_shortname: hrdatahub_status_sub-v1
+  route_paths: 
+  - /dh_status_sub/v1
+- api_version_shortname: hrdatahub_status-v0
+  route_paths: 
+  - /dh_status_all/v1
+- api_version_shortname: kimidentities-v1
+  route_paths: 
+  - /kimidentities/v1
+  - /kimidentities/v2
+- api_version_shortname: hrdata2go_reference_unit-v1
+  route_paths: 
+  - /referenceunits/v1
+- api_version_shortname: hrdata2go_reporting_attribute-v1
+  route_paths: 
+  - /reportingattributes/v1
+- api_version_shortname: hrdata2go_locations-v1
+  route_paths: 
+  - /locations/v1
+
+
+
+
+host:
+  baseurl: https://hrd2g-api-dev.app.corpintra.net/hrdata2go/rest
